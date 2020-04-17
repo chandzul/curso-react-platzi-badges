@@ -15,15 +15,16 @@ import ReactDOM from 'react-dom'
 //     'Ir a Platzi!'
 // )
 
-const name = 'Stephanie'
-const element = React.createElement('h1', {}, `Hola, soy ${name}`)
-const jsx = <h1>Hola, soy {name}</h1>
-const jsx2 = <div>
+// const name = 'Stephanie'
+// const element = React.createElement('h1', {}, `Hola, soy ${name}`)
+// const jsx = <h1>Hola, soy {name}</h1>
+const element = <div>
     <h1>Hola, Soy David</h1>
     <p>Soy ingeniero Frontend</p>
+    <a href="#">Test emmet</a>
 </div> 
 
 const container = document.getElementById('app')
 
 // ReactDOM.render(que, donde)
-ReactDOM.render(jsx2, container)
+ReactDOM.render(element, container)
