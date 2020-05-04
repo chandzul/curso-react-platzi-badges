@@ -17,3 +17,8 @@
   width: 80px;
   height: 80px;
 }
+
+.BadgesListItem  .Badge__name {
+  border: 1px solid lime;
+  display: inline;
+}

@@ -17,7 +17,7 @@ class BadgesList extends React.Component {
                   alt="Avatar"
                 />
 
-                <h4>
+                <h4 className="Badge__name">
                   {badge.firstName} {badge.lastName}
                 </h4>
                 <br />
