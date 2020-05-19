@@ -1,17 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Layout from './Layout'
-import HomePage from "../pages/HomePage"
+import Layout from "./Layout";
+import HomePage from "../pages/HomePage";
 import Badges from "../pages/Badges";
 import BadgesNew from "../pages/BadgeNew";
-import NotFound from '../pages/NotFound';
-
-// class App extends React.Component {
-//   render() {
-//     return <div className="">App</div>;
-//   }
-// }
+import BadgeEdit from "../pages/BadgeEdit";
+import NotFound from "../pages/NotFound";
 
 function App() {
   return (
@@ -21,6 +16,7 @@ function App() {
           <Route exact path="/" component={HomePage} />
           <Route exact path="/badges" component={Badges} />
           <Route exact path="/badges/new" component={BadgesNew} />
+          <Route exact path="/badges/:badgeId/edit" component={BadgeEdit} />
           <Route component={NotFound} />
         </Switch>
       </Layout>

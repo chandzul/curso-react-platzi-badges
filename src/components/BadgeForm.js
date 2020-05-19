@@ -1,7 +1,6 @@
 import React from "react";
 
 class BadgeForm extends React.Component {
-
   handleClick = (e) => {
     console.log("Button was save");
   };
@@ -15,8 +14,6 @@ class BadgeForm extends React.Component {
   render() {
     return (
       <div>
-        <h1>New Attendant</h1>
-
         <form onSubmit={this.props.onSubmit}>
           <div className="form-group">
             <label htmlFor="firstName">First Name</label>
@@ -36,7 +33,7 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="lastName"
-              value={this.props.formValues.lasttName}
+              value={this.props.formValues.lastName}
             />
           </div>
 
@@ -80,6 +77,10 @@ class BadgeForm extends React.Component {
           >
             Save
           </button>
+
+          {this.props.error && (
+            <p className="text-danger">{this.props.error.message}</p>
+          )}
         </form>
       </div>
     );

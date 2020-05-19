@@ -2,9 +2,9 @@
   "badges": [
     {
       "id": "2de30c42-9deb-40fc-a41f-05e62b5939a7",
-      "firstName": "Freda",
+      "firstName": "Fredada",
       "lastName": "Grady",
-      "email": "Leann_Berge@gmail.com",
+      "email": "FredadaGrady@example.com",
       "jobTitle": "Legacy Brand Director",
       "twitter": "FredaGrady22221-7573",
       "avatarUrl": "https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon"
@@ -448,6 +448,30 @@
       "jobTitle": "developer",
       "twitter": "pepekof",
       "id": "6AA1-Y0"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Chandzul",
+      "email": "dchandzul@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "dchandzul",
+      "id": "oiWud1n"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Chandzul",
+      "email": "dchandzul@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "dchandzul",
+      "id": "zCLy6px"
+    },
+    {
+      "firstName": "david",
+      "lastName": "Chandzul",
+      "email": "david.dj.chan@gmail.com",
+      "jobTitle": "devs",
+      "twitter": "chandzul",
+      "id": "AoMjDSg"
     }
   ]
 }
